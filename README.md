@@ -9,7 +9,7 @@
    <img align="center" height="30" width="40 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
  </div>
  <h2>📷 Imagem</h2>
- <img src="">
+ <img src="./assets/Plano de Fundo.jpg">
  
 
  <h2>🔗 Link do Projeto:</h2>
