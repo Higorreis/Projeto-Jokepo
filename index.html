@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokepo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="principal">
+        <div class="container">
+            <h3>JokenPô</h3>
+            <div class="container-button">
+                <button class="button" id="button-one" onclick= "playHuman('tesoura')">&#x270C;&#x1F3FE;</button>
+                <button class="button" id="button-two" onclick= "playHuman('papel')">&#x1F590;&#x1F3FE;</button>
+                <button class="button" id="button-thee" onclick= "playHuman('pedra')">&#x1F44A;&#x1F3FE;</button>
+            </div>
+            <div class="resultado">
+                <p id="resul"></p>
+            </div>
+            <p class="pontuacao-my"><strong>Sua pontuação: <span id="human">0</span></strong></p>
+            <p class="pontuacao-alexa"><strong>Pontuação da Alexa: <span id="manchine">0</span></strong></p>
+            
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

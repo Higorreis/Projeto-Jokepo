@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 260px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding: 20px;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.resultado{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.button{
+    padding:5px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+.button:hover{
+    opacity: 0.6;
+}
+#button-one{
+    background-color: #a200ff;
+}
+#button-two{
+    background-color: #9ee01a;
+}
+#button-thee{
+    background-color: #7dbeed;
+}
+.pontuacao-my{
+    margin-bottom: 5px;
+}
+.pontuacao-my span{
+    color: rgb(42, 122, 162);
+}
+.pontuacao-alexa span{
+    color: rgb(185, 112, 112);
+}
